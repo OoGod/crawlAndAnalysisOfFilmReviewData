@@ -1,0 +1,4 @@
+ML can be characterized in multiple dimensions: nature of learning
+feedback, target of learning tasks, and timing of data availability.
+Accordingly, we propose a multi-dimensional taxonomy of ML, as
+shown in Fig. 2
