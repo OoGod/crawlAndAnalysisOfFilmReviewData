@@ -14,7 +14,7 @@ ctx = execjs.compile('''
         return uuid;
 	}
 	function VL(a) {
-	    var b = a.trim();
+	    var b = a.trim();---*
 	    alert(TL(b));
 	    //return TL(b);
 	    
