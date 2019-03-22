@@ -6,5 +6,5 @@
 使用方式
 ```
 # 不制定文件名默认去machine.txt的空格，并输出到output.txt中，这里举例去test.txt中的空格
-python del_spa.py text.txt
+python del_spa.py test.txt
 ```
