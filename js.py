@@ -63,4 +63,4 @@ ctx = execjs.compile('''
 }
 ''')
 if __name__ == "__main__":
-    ctx.call("TL",'happy new year!')
+    ctx.call("VL",'happy new year!')
