@@ -60,7 +60,7 @@ ctx = execjs.compile('''
 	        a = b.charAt(c) == Yb ? a + d & 4294967295 : a ^ d
 	    }
 	    return a
-}
+	}
 ''')
 if __name__ == "__main__":
     ctx.call("VL",'happy new year!')
