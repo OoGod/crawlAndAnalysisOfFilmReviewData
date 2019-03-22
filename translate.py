@@ -10,7 +10,12 @@ def translate(a):
     url=url.format(tk,a)
     con=requests.get(url)
     t=json.loads(con.text)
-    return t[0][0][0]
+    i = 0
+    a = ''
+    while(t[0][i][0]):
+        a += t[0][i][0]
+        i += 1
+    return a
 
 if __name__=="__main__":
     

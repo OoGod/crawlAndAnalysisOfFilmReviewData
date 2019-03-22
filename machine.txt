@@ -1,4 +1,13 @@
-ML can be characterized in multiple dimensions: nature of learning
-feedback, target of learning tasks, and timing of data availability.
-Accordingly, we propose a multi-dimensional taxonomy of ML, as
-shown in Fig. 2
+Big data has been characterized by five dimensions: volume
+(quantity/amount of data), velocity (speed of data generation), variety
+(type, nature, and format of data), veracity (trustworthiness/quality of
+captured data), and value (insights and impact). We organized the five
+dimensions into a stack, consisting of big, data, and value layers
+starting from the bottom (see Fig. 3). The big layer is the most
+fundamental and the data layer is central to big data, and the value
+aspect characterizes impact of big data real world applications. The
+lower layer (e.g., volume and velocity) depends more heavily on
+technological advances, and higher layer (e.g., value) is more oriented
+toward applications that harness the strategic power of big data. In
+order to realize the value of big data analytics and to process big data
+efficiently, existing ML paradigms and algorithms need to be adapted.
