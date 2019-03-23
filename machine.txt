@@ -1,26 +1,11 @@
-The performance of ML is heavily dependent upon the choice of
-data representation or features [6]. A ML algorithm's generalizability
-depends on the dataset, which also indirectly depends on the features
-that represent a salient structure of the dataset. Feature selection helps
-enhance the performance of ML by identifying prominent features. It
-essentially selects different subsets of features and data, and aggregates
-them at different levels of granularity, which contributes to reducing
-the amount of big data. However, feature engineering requires prior
-domain knowledge and human ingenuity and is often labor-intensive
-[6]. To address the weakness of current feature engineering algorithms
-when dealing with big data, various solutions have been proposed, such
-as distributed feature selection [25]; a low-rank matrix approximation
-(e.g., standard Nystr?m method [26]); representation learning to make
-learning algorithms less dependent on feature engineering by learning
-a generic prior [6]; adaptive feature scaling scheme for ultra highdimensional feature selection, which iteratively activates a group of
-features and solves a sequence of multiple kernel learning subproblems [27]; a unified framework for feature selection based on
-spectral graph theory, which is able to generate families of algorithms
-for both supervised and unsupervised feature selection [28]; fuzzy
-clustering prior to classification, where classification is realized with
-the center of groups, followed by de-clustering and classification via
-reduced data [29]; and reducing the size of data dimensions and
-volumes (e.g., Random Forest-Forward Selection Ranking and Random
-Forest-Backward Elimination Ranking [30], and linguistic hedges
-neuro-fuzzy classifier with selected features [31]). Recently, deep
-neural network-based autoencoding has proven to be very effective in
-learning video, audio and textual features [32,33]
+Much of the actual effort in deploying an ML system goes into the
+design of preprocessing pipelines and data transformations that result
+in a representation of data that can support effective ML [6]. Data
+preprocessing aims to address a number of issues such as data
+redundancy, inconsistency, noise, heterogeneity, transformation, labeling (for (semi-)supervised ML), data imbalance and feature representation/selection. Data preparation and preprocessing is usually costly,
+due to the requirement of human labor and a large number of options
+to choose from. Additionally, some conventional data assumptions do
+not hold for big data, consequently some preprocessing methods
+become infeasible. On the other hand, big data creates the opportunity
+of reducing the reliance on human supervision by learning from
+massive, diverse, and streaming data sources directly
