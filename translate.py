@@ -21,5 +21,9 @@ if __name__=="__main__":
     
     a = 'loser'
     b = sys.argv[1] if len(sys.argv)>1 else a
+    file1 = 'test1.txt'
+    file2 = sys.argv[2] if len(sys.argv)>2 else file1
     tra = translate(b)
+    with open(file2,'a') as f:
+        f.write(tra)
     print(tra)
