@@ -18,3 +18,8 @@ _去空格并且翻译文本_
 # 去掉文本之间的换行符，并且翻译文件最后输出到test1.txt中
 python run_tran.py machine.txt
 ```
+
+代码改进
+```
+很久前的代码,可以了解String类的split(),lstrip()方法进行改进
+```
